@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #000502;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    
+    .logo {
+        margin: 2%;
+        font-size: 24px;  
+        color: white;
+    }
+
+    .links {
+        margin: 2%;
+
+        .links_item {
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            margin-right: 5px;
+        
+            &.links_item:hover {
+                color: grey;
+            };
+            &.router-link-exact-active {
+                color: grey;
+                border-bottom: 1px solid grey;
+            }
+        }
+    }
+
+}
+
